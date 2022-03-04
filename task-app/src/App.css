@@ -1,0 +1,41 @@
+/* figcaption {
+  position: absolute;
+  bottom: 2rem;
+  margin: 0 5rem;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  figcaption {
+    position: inherit;
+    bottom: inherit;
+    margin: 0.25rem 0px;
+    font-size: inherit;
+    color: inherit;
+  }
+} */
+/* .img-fluid {
+  background-image: url(./image/task.png);
+}
+@media (min-width: 800px) {
+  .img-fluid {
+    background-image: url(./image/task.png);
+  }
+}
+@media (min-width: 1000px) {
+  .img-fluid {
+    background-image: url(./image/task.png);
+  }
+} */
+body img-fluid {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1000px) {
+  body img-fluid {
+    content: url('../src/image/task.png');
+  }
+}
